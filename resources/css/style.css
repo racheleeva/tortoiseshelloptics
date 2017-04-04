@@ -67,9 +67,10 @@ header .flex {
 }
 
 .offerings {
-  height: 8rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .service {
@@ -95,8 +96,8 @@ img.paper-icon {
 .information {
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
-  /*forced divs to stack; not sure how else to do it*/
+  margin-top: 3rem;
+  flex-wrap: wrap;
 }
 
 .specifics {
@@ -195,16 +196,17 @@ footer img {
   }
 
   .offerings {
-    margin-top: 3.77rem;
+    padding-top: 3.77rem;
     font-size: 0.77rem;
-    margin-bottom: 12rem;
-  /*Can't figure out how to get these to stack instead of overlap*/
+    margin-top: 0;
   }
 
   .service {
-    margin-top: 5rem;
-    /*Can't figure out how to get these to stack instead of overlap*/
+    margin-bottom: 1.54rem;
+    margin-top: 0;
+    justify-content: center;
   }
+
 
   .specifics {
     width: 100%;

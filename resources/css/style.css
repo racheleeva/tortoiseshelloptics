@@ -61,3 +61,29 @@ header {
 header .flex {
   justify-content: flex-end;
 }
+
+.offerings {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  }
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+img.paper-icon {
+  width: 3.5rem;
+}

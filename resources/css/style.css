@@ -167,6 +167,11 @@ footer img {
     margin-right: 1rem;
   }
 
+  nav.container {
+    flex-direction: row;
+  }
+
+
   header span {
     display: none;
   }
